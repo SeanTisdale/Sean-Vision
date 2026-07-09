@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sean Vision</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link href="./style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Yuyu&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        margin: 24px 0px;
+      }
+
+      .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 8px;
+        margin: 24px 0px;
+      }
+
+      .farming {
+        grid-row: 1 / span 2;
+        height: 800px;
+      }
+
+      .test {
+        height: 500px;
+      }
+
+      .test2 {
+        grid-area: 2 / span 2;
+        height: 500px;
+        width: 100%;
+      }
+
+      .test3 {
+        height: 400px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="header dm-serif-display-regular">
+      <div class="title">
+        <a href="./Practice Website.html">Sean Tisdale</a>
+      </div>
+      <div class="bar"></div>
+      <div class="navSelection">
+        <a href="./friends.html">Friends</a>
+      </div>
+      <div class="navSelection"><a href="./favorites.html">Favorites</a></div>
+      <div class="navSelection">
+        <a href="./Resume/index.html">Resume</a>
+      </div>
+      <div class="navSelection"><a href="./about.html">About</a></div>
+    </nav>
+    <!-- Music -->
+    <div class="flex">
+      <div class="grid">
+        <img class="test" src="./assets/other/bruno.jpg" />
+        <img class="test" src="./assets/other/insaneInTheRain.jpg" />
+        <img class="test2" src="./assets/other/twoDoor.jpg" />
+      </div>
+    </div>
+
+    <!-- Art -->
+    <div style="margin: 24px">
+      <div class="grid2">
+        <img
+          class="farming"
+          src="./assets/hailey art/farming and factory.png"
+        />
+        <img class="test3" src="./assets/hailey art/pokemon cropped.svg" />
+        <img class="test3" src="./assets/hailey art/small juice.jpg" />
+        <img class="test3" src="./assets/hailey art/bugs n peak cropped.svg" />
+        <img class="test3" src="./assets/hailey art/munchlaxes cropped.svg" />
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top color alegreya-sans-regular"
+      style="padding-left: 5%; padding-right: 5%; font-size: 14pt"
+    >
+      <p class="col-md-4 mb-0 text-light">© 2026 Tisdale, Sean</p>
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="./Practice Website.html" class="nav-link px-2 text-light"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="./friends.html" class="nav-link px-2 text-light">Friends</a>
+        </li>
+        <li class="nav-item">
+          <a href="./favorites.html" class="nav-link px-2 text-light"
+            >Favorites</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="./Resume/index.html" class="nav-link px-2 text-light"
+            >Resume</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="./about.html" class="nav-link px-2 text-light">About</a>
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
