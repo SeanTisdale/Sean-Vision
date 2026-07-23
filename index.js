@@ -9,7 +9,3 @@ function mobileClick() {
 }
 
 mobileClick();
-
-if ($(window).width(); > "756px") {
-  $(".mobileLinks").addClass("hide");
-}
