@@ -120,6 +120,7 @@
     display: block;
     color: white;
     font-size: 1.5rem;
+    padding-right: 8px;
   }
 
   .col-10,
