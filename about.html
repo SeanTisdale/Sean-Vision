@@ -38,23 +38,33 @@
     <!-- Navbar -->
     <nav class="header dm-serif-display-regular">
       <div class="title">
-        <a href="./index.html">Sean Tisdale</a>
+        <a href="./index.html">Sean Tisdale</a><img src="" />
       </div>
       <div class="bar"></div>
-      <div class="navSelection">
-        <a href="./friends.html">Friends</a>
+      <div class="right">
+        <div class="dropdown">Dropdown!</div>
+        <div class="navSelection">
+          <a href="./friends.html">Friends</a>
+        </div>
+        <div class="navSelection"><a href="./favorites.html">Favorites</a></div>
+        <div class="navSelection">
+          <a href="./Resume/index.html">Resume</a>
+        </div>
+        <div class="navSelection"><a href="./about.html">About</a></div>
       </div>
-      <div class="navSelection"><a href="./favorites.html">Favorites</a></div>
-      <div class="navSelection">
-        <a href="./Resume/index.html">Resume</a>
-      </div>
-      <div class="navSelection"><a href="./about.html">About</a></div>
     </nav>
+    <!-- Mobile Navbar -->
+    <div class="mobileLinks alegreya-sans-regular hide">
+      <a href="./friends.html">Friends</a>
+      <a href="./favorites.html">Favorites</a>
+      <a href="./Resume/index.html">Resume</a>
+      <a href="./about.html">About</a>
+    </div>
 
     <div class="flex">
       <div class="screen">
         <h1 class="yuyu-regular">About The Creator</h1>
-        <img src="./assets/people/sean.jpg" width="75%" />
+        <img class="aboutImage" src="./assets/people/sean.jpg" />
         <p
           class="alegreya-sans-regular"
           style="font-size: 16pt; padding: 0% 15%"
@@ -74,9 +84,7 @@
       <p class="col-md-4 mb-0 text-light">© 2026 Tisdale, Sean</p>
       <ul class="nav col-md-4 justify-content-end">
         <li class="nav-item">
-          <a href="./index.html" class="nav-link px-2 text-light"
-            >Home</a
-          >
+          <a href="./index.html" class="nav-link px-2 text-light">Home</a>
         </li>
         <li class="nav-item">
           <a href="./friends.html" class="nav-link px-2 text-light">Friends</a>
@@ -96,6 +104,9 @@
         </li>
       </ul>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
