@@ -95,6 +95,18 @@
     color: white;
     font-size: 3rem;
   }
+
+  .picture {
+    height: 500px;
+  }
+
+  .flex {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 756px) {
@@ -141,14 +153,6 @@ a {
   text-decoration: none;
 }
 
-.flex {
-  display: flex;
-  margin-left: 25%;
-  margin-right: 25%;
-  justify-content: center;
-  align-items: center;
-}
-
 span {
   color: #4b75ff;
 }
@@ -157,5 +161,14 @@ span {
   .col-sm-8,
   .col-10 {
     width: auto;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    align-items: center;
   }
 }
